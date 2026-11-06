@@ -1,25 +1,13 @@
-# Simple Blockchain Project
+# Go-React Blockchain
 
-This is a full-stack blockchain project I've been working on. It's split into two main parts: a backend written in Go that handles the core blockchain logic (blocks, transactions, merkle trees, etc.), and a React frontend built with Vite to interact with it.
+A full-stack blockchain implementation featuring a high-performance Go backend (handling Merkle trees and transactions) and an interactive React + Vite frontend.
 
-## Project Structure
+## Features
+- Custom blockchain logic written in Go.
+- Transaction handling and Merkle tree generation.
+- Interactive UI built with React and Vite.
+- API integration between the frontend and backend.
 
-Here's a quick breakdown of how the folders are organized:
-
-- **`api/`**: The Go backend. This is where the server runs and where the core blockchain logic lives (inside the `blockchain` subfolder).
-- **`Frontend/`**: The React user interface. It uses Vite for fast builds and hot module replacement.
-
-## How to Run It Locally
-
-To get this running on your machine, you'll need to start both the backend and the frontend. 
-
-### 1. Start the Go Backend
-
-Open a terminal and navigate to the `api` folder. Then, run the server:
-
-```bash
-cd api
-server.go
 ## Repository Structure
 
 ```text
@@ -47,21 +35,3 @@ Blockchain/
         ├── App.jsx              # Main React component
         ├── App.css              # Application styles
         └── main.jsx             # React DOM rendering
-
-## 🚀 Getting Started
-
-Follow these steps to get the project running on your local machine.
-
-### 1. Prerequisites
-
-Ensure you have the following installed on your system:
-*   **Go (Golang)** - To run the backend server.
-*   **Node.js & npm** - To run the React frontend.
-
-### 2. Installation
-
-Clone the repository and navigate into the project folder:
-
-```bash
-git clone https://github.com/Ayesha-Makhdoom/nyc-taxi-medallion.git
-cd Blockchain
