@@ -35,3 +35,23 @@ Blockchain/
         ├── App.jsx              # Main React component
         ├── App.css              # Application styles
         └── main.jsx             # React DOM rendering
+        
+## Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Backend** | Go (Golang) |
+| **Frontend** | React, Vite, JavaScript (JSX), CSS3 |
+| **Database / Storage** | *Add yours here (e.g., In-memory, LevelDB)* |        
+
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+[![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/dl/)
+[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![npm](https://img.shields.io/badge/npm-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+
+* **Go (Golang)** - Required to compile and run the backend API.
+* **Node.js & npm** - Required to install React dependencies and run the Vite frontend.
